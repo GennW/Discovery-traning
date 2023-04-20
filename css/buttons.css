@@ -1,0 +1,64 @@
+.button {
+    background-color: #7B61FF;
+    border-radius: 12px;
+    color: white;
+    transition: background-color 0.2s ease-in;
+}
+.button:hover {
+    background-color: #684eee;
+}
+
+.button--huge {
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+
+}
+/* Form */
+
+.form {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    height: 88px;
+    padding: 8px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.form__input-wraper {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px 16px 56px;
+    background-color: rgba(253, 197, 228, 0.356);
+    background-repeat: no-repeat;
+    background-position: 16px 24px;
+}
+
+.form__input--location {
+    width: 300px;
+    background-image: url('./../img/icon/Map.svg');
+   
+}
+
+.form__input--activity {
+    width: 255px;
+    background-image: url('./../img/icon/velo.svg');
+    
+}
+.form__label {
+    font-style: 14px;
+    font-weight: 300;
+    color: #5B5B5B;
+}
+
+.form__input {
+    color: #161414;
+    font-weight: 500;
+    font-style: 16px;
+}
+
