@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./libs/autoComplete.js-10.2.7/dist/css/autoComplete.01.css">
+    <link rel="stylesheet" href="./libs/custom-select-1.1.16/custom-select.css">
 </head>
 <body>
     <div class="header">
@@ -57,7 +59,7 @@
 
                 <div class="form__input-wraper form__input--location">
                     <label for="location" class="form__label">Location</label>
-                    <input type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
+                    <input autocomplete="off" type="text" class="form__input" id="location" placeholder="Country name...">
                 </div>
 
                 <div class="form__input-wraper form__input--activity">
@@ -69,17 +71,29 @@
                         <option value="FreeRide">FreeRide</option>
                     </select>
                 </div>
-                <div class="form__input-wraper form__input--location">
-                    <label for="location" class="form__label">Location</label>
-                    <input type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
+                <div class="form__input-wraper form__input--when">
+                    <label for="when" class="form__label">When</label>
+                    <input type="text" class="form__input" id="when" placeholder="Choose a Date">
                 </div>
-                <div class="form__input-wraper form__input--location">
-                    <label for="location" class="form__label">Location</label>
-                    <input type="text" class="form__input" id="location" placeholder="Explore nearby destinations">
+                <div class="form__input-wraper form__input--guests">
+                    <label for="guests" class="form__label">Guests</label>
+                    <select name="" id="" class="form__select">
+                        <option value="">1 guest</option>
+                        <option value="">2 guest</option>
+                        <option value="">3 guest</option>
+                        <option value="">4 guest or more</option>
+                    </select>
                 </div>
+                <button class="button button--search">
+                    <img src="./img/icon/search.png" alt="">
+                </button>
             </form>
         </div>
     </div>
-
+    <script src="./libs/autoComplete.js-10.2.7/dist/autoComplete.min.js"></script>
+     <script src="./libs/custom-select-1.1.16/custom-select.min.js"></script>
+     <script src="./libs/easepick/index.umd.js"></script>
+     <script src="./js/input.js"></script>
+     <script src="./js/main.js"></script>
 </body>
 </html>

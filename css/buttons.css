@@ -17,48 +17,9 @@
     align-items: center;
 
 }
-/* Form */
 
-.form {
-    display: flex;
-    align-items: center;
-    width: 1140px;
-    height: 88px;
-    padding: 8px;
-    color: #000;
-    background-color: #fff;
-    border-radius: 12px;
+.button--search {
+    width: 60px;
+    height: 60px;
+    /* padding: 18px; */
 }
-
-.form__input-wraper {
-    display: flex;
-    flex-direction: column;
-    padding: 15px 20px 16px 56px;
-    background-color: rgba(253, 197, 228, 0.356);
-    background-repeat: no-repeat;
-    background-position: 16px 24px;
-}
-
-.form__input--location {
-    width: 300px;
-    background-image: url('./../img/icon/Map.svg');
-   
-}
-
-.form__input--activity {
-    width: 255px;
-    background-image: url('./../img/icon/velo.svg');
-    
-}
-.form__label {
-    font-style: 14px;
-    font-weight: 300;
-    color: #5B5B5B;
-}
-
-.form__input {
-    color: #161414;
-    font-weight: 500;
-    font-style: 16px;
-}
-
