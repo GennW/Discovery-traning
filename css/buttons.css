@@ -23,6 +23,7 @@
     height: 60px;
     /* padding: 18px; */
 }
+
 /* hotel */
 .button__view {
     display: flex;
@@ -44,4 +45,10 @@
     background-color: #d8d0ff;
     
 
+}
+/* subscrible */
+.button--subscrible {
+    width: 72px;
+    height: 72px;
+    padding: 28px;
 }
