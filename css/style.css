@@ -1,7 +1,7 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import "./buttons.css";
-
+@import "./nav-icon.css";
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -360,17 +360,14 @@ color: #5B5B5B;
 .footer {
     padding: 120px 0;
     border-color: #F9F9F9;
+    background-color: #F9F9F9;
 }
 .footer-wrapper {
     display: grid;
     gap: 64px;
     grid-template-columns: repeat(3, 1fr);
 }
-/* .footer-wrapper {
-    display: grid;
-    gap: 64px;
-    grid-template-columns: repeat(3, 1fr);
-} */
+
 .footer__logo {
     max-width: 354.5px;
     display: flex;
@@ -404,10 +401,8 @@ color: #5B5B5B;
 
 .footer__about {
     display: grid;
-    grid-template: 20px;
-    /* display: flex;
-    flex-direction: column;
-    gap: 20px; */
+    /* grid-template: 20px; */
+
 
 }
 .footer__about-title {
@@ -419,7 +414,7 @@ color: #5B5B5B;
 }
 .footer__about-list {
     display: grid;
-    grid-template: 12px;
+    /* grid-template: 12px; */
 }
 .footer__about-items {
 }
@@ -448,9 +443,35 @@ color: #5B5B5B;
 .subscrible {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 16px;
 }
 .footer__input-wrapper {
+    position: relative;
+    /* display: grid; */
+    width: 300px;
+    height: 72px;
+    background-color: #fff;
+    background-image: url(./../img/icon/mail-line.svg);
+    background-repeat: no-repeat;
+    background-position: 16px 24px;
+    padding: 32px 20px 16px 56px;
+    /* padding: 16px; */
+    border-radius: 12px;
 }
+.subscrible__lable {
+    /* margin-left: 56px;
+    margin-top: 16px; */
+    position: absolute;
+    top: 16px;
+    left: 56px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5B5B5B;
+    pointer-events: none;
+    /* transition: all 0.2s ease-in; */
+}
+
 .email {
 }
 .button {
